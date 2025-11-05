@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762317652394" clover="3.2.0">
-  <project timestamp="1762317652394" name="All files">
-    <metrics statements="69" coveredstatements="57" conditionals="13" coveredconditionals="5" methods="14" coveredmethods="11" elements="96" coveredelements="73" complexity="0" loc="69" ncloc="69" packages="7" files="8" classes="8"/>
+<coverage generated="1762317868420" clover="3.2.0">
+  <project timestamp="1762317868420" name="All files">
+    <metrics statements="69" coveredstatements="59" conditionals="13" coveredconditionals="5" methods="14" coveredmethods="12" elements="96" coveredelements="76" complexity="0" loc="69" ncloc="69" packages="7" files="8" classes="8"/>
     <package name="src">
       <metrics statements="13" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
       <file name="app.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\app.ts">
@@ -56,7 +56,7 @@
       </file>
     </package>
     <package name="src.api.v1.middleware">
-      <metrics statements="18" coveredstatements="9" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <metrics statements="18" coveredstatements="11" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="2"/>
       <file name="errorHandler.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\middleware\errorHandler.ts">
         <metrics statements="9" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
@@ -70,16 +70,16 @@
         <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="errorlogger.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\middleware\errorlogger.ts">
-        <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="4" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.api.v1.routes">

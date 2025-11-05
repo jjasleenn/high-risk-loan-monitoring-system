@@ -1,5 +1,5 @@
 import express from "express";
-import {accessLogger,errorLogger,consoleLogger,} from "./api/v1/middleware/logger";
+import {accessLogger,errorLogger,consoleLogger,} from "./api/v1/middleware/errorlogger";
 import errorHandler from "./api/v1/middleware/errorHandler";
 import postRoutes from "./api/v1/routes/loanroutes";
 

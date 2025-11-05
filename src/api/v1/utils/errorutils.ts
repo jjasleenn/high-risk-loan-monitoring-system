@@ -1,4 +1,4 @@
-import { AppError } from "../errors/appError";
+import { AppError } from "../errors/appErrors";
 import { HTTP_STATUS } from "../../../constants/httpstatuscode";
 
 export const formatErrorResponse = (error: unknown) => {

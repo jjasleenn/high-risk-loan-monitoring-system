@@ -1,69 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762320664075" clover="3.2.0">
-  <project timestamp="1762320664075" name="All files">
-    <metrics statements="141" coveredstatements="114" conditionals="31" coveredconditionals="19" methods="27" coveredmethods="20" elements="199" coveredelements="153" complexity="0" loc="141" ncloc="141" packages="7" files="14" classes="14"/>
+<coverage generated="1762321524105" clover="3.2.0">
+  <project timestamp="1762321524105" name="All files">
+    <metrics statements="143" coveredstatements="107" conditionals="31" coveredconditionals="18" methods="27" coveredmethods="16" elements="201" coveredelements="141" complexity="0" loc="143" ncloc="143" packages="7" files="14" classes="14"/>
     <package name="src">
-      <metrics statements="17" coveredstatements="15" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <metrics statements="19" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
       <file name="app.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\app.ts">
-        <metrics statements="17" coveredstatements="15" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="11" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
+        <metrics statements="19" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.api.v1.controllers">
-      <metrics statements="35" coveredstatements="23" conditionals="2" coveredconditionals="1" methods="12" coveredmethods="8"/>
+      <metrics statements="35" coveredstatements="14" conditionals="2" coveredconditionals="0" methods="12" coveredmethods="4"/>
       <file name="loancontroller.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\controllers\loancontroller.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
       </file>
       <file name="rolecontroller.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\controllers\rolecontroller.ts">
-        <metrics statements="13" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
+        <metrics statements="13" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="22" count="0" type="stmt"/>
       </file>
       <file name="usercontroller.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\controllers\usercontroller.ts">
         <metrics statements="14" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
@@ -76,23 +78,23 @@
       <metrics statements="18" coveredstatements="15" conditionals="6" coveredconditionals="3" methods="6" coveredmethods="5"/>
       <file name="appErrors.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\errors\appErrors.ts">
         <metrics statements="18" coveredstatements="15" conditionals="6" coveredconditionals="3" methods="6" coveredmethods="5"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="2" count="5" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
-        <line num="16" count="5" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
         <line num="21" count="7" type="stmt"/>
         <line num="22" count="7" type="stmt"/>
         <line num="23" count="7" type="stmt"/>
         <line num="25" count="7" type="stmt"/>
-        <line num="32" count="5" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
-        <line num="41" count="5" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
-        <line num="50" count="5" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
         <line num="52" count="1" type="stmt"/>
-        <line num="59" count="5" type="stmt"/>
+        <line num="59" count="4" type="stmt"/>
         <line num="61" count="1" type="stmt"/>
       </file>
     </package>
@@ -100,7 +102,7 @@
       <metrics statements="43" coveredstatements="34" conditionals="19" coveredconditionals="13" methods="8" coveredmethods="6"/>
       <file name="authmiddleware.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\middleware\authmiddleware.ts">
         <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="2" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
         <line num="7" count="3" type="cond" truecount="4" falsecount="0"/>
@@ -114,10 +116,10 @@
       </file>
       <file name="authorizationMiddleware.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\middleware\authorizationMiddleware.ts">
         <metrics statements="14" coveredstatements="12" conditionals="11" coveredconditionals="9" methods="2" coveredmethods="2"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="18" count="3" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="4" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
         <line num="20" count="3" type="stmt"/>
         <line num="22" count="3" type="cond" truecount="1" falsecount="1"/>
@@ -131,10 +133,10 @@
       </file>
       <file name="errorHandler.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\middleware\errorHandler.ts">
         <metrics statements="9" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="11" count="0" type="stmt"/>
@@ -143,56 +145,56 @@
       </file>
       <file name="errorlogger.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\middleware\errorlogger.ts">
         <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="17" count="9" type="stmt"/>
-        <line num="18" count="9" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.api.v1.routes">
       <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="loanroutes.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\routes\loanroutes.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
       </file>
       <file name="roleroutes.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\routes\roleroutes.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
       <file name="userroutes.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\routes\userroutes.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.api.v1.utils">
       <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="errorutils.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\api\v1\utils\errorutils.ts">
         <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="8" count="1" type="stmt"/>
@@ -203,7 +205,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="httpstatuscode.ts" path="C:\Users\jjasl\high-risk-loan-monitoring-system\src\constants\httpstatuscode.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="5" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
       </file>
     </package>
   </project>

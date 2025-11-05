@@ -3,6 +3,8 @@ import {accessLogger,errorLogger,consoleLogger,} from "./api/v1/middleware/error
 import errorHandler from "./api/v1/middleware/errorHandler";
 import loanroutes from "./api/v1/routes/loanroutes";
 import userroutes from "./api/v1/routes/userroutes";
+import { authenticateUser } from "./api/v1/middleware/authmiddleware";
+import { authorize } from "./api/v1/middleware/authorizationMiddleware";
 import roleroutes from "./api/v1/routes/roleroutes";
 
 const app = express();
@@ -21,7 +23,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(express.json());
 
 // API Routes
-app.use("/api/v1",loanroutes);
+app.use("/api/v1",loanroutes, authenticateUser, authorize({ roles: ["admin", "officer"], allowSameUser: true }),);
 
 // Global error handling middleware (MUST be applied last)
 app.use(errorHandler);

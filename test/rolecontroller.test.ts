@@ -2,17 +2,14 @@ import request from "supertest";
 import app from "../src/app";
 
 // Mock Firebase Admin SDK
-jest.mock("firebase-admin", () => {
-  const authMock = {
-    setCustomUserClaims: jest.fn(),
-    getUser: jest.fn(),
-  };
-  return {
-    credential: { cert: jest.fn() },
-    initializeApp: jest.fn(),
-    auth: () => authMock,
-  };
-});
+
+jest.mock("../../src/api/v1/middleware/authmiddleware", () => ({
+  authenticateToken: (req: any, res: any, next: any) => {
+    req.user = { uid: "test-user", role: "admin" }; // fake user
+    next();
+  },
+}));
+
 
 import admin from "firebase-admin";
 const mockAuth = admin.auth();

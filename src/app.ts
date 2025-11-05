@@ -1,7 +1,7 @@
 import express from "express";
 import {accessLogger,errorLogger,consoleLogger,} from "./api/v1/middleware/logger";
 import errorHandler from "./api/v1/middleware/errorHandler";
-import postRoutes from "./api/v1/routes/postRoutes";
+import postRoutes from "./api/v1/routes/loanroutes";
 
 const app = express();
 

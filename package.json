@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest --coverage",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.js"
   },
   "repository": {
     "type": "git",

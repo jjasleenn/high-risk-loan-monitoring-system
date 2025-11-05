@@ -1,7 +1,7 @@
 import express from "express";
 import {accessLogger,errorLogger,consoleLogger,} from "./api/v1/middleware/errorlogger";
 import errorHandler from "./api/v1/middleware/errorHandler";
-import postRoutes from "./api/v1/routes/loanroutes";
+import loanroutes from "./api/v1/routes/loanroutes";
 
 const app = express();
 
@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(express.json());
 
 // API Routes
-app.use("/api/v1", postRoutes);
+app.use("/api/v1",loanroutes);
 
 // Global error handling middleware (MUST be applied last)
 app.use(errorHandler);

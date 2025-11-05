@@ -2,6 +2,7 @@ import express from "express";
 import {accessLogger,errorLogger,consoleLogger,} from "./api/v1/middleware/errorlogger";
 import errorHandler from "./api/v1/middleware/errorHandler";
 import loanroutes from "./api/v1/routes/loanroutes";
+import userroutes from "./api/v1/routes/userroutes";
 
 const app = express();
 
@@ -24,4 +25,5 @@ app.use("/api/v1",loanroutes);
 // Global error handling middleware (MUST be applied last)
 app.use(errorHandler);
 
+app.use("/api/v1/users", userroutes);
 export default app;

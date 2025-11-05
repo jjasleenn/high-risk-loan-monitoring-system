@@ -3,3 +3,4 @@ dist/
 # Logs
 logs/
 *.log
+src/config/serviceaccountkey.json

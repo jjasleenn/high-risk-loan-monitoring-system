@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { formatErrorResponse } from "../utils/errorutils";
 import { AppError } from "../errors/appError";
-import { HTTP_STATUS } from "../../../constants/httpstatuscodes";
+import { HTTP_STATUS } from "../../../constants/httpstatuscode";
 
 export default function errorHandler(err: unknown, req: Request, res: Response, next: NextFunction) {
   const errorResponse = formatErrorResponse(err);
